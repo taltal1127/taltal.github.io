@@ -27,13 +27,14 @@ body{width:950px;
 		padding: 100px 0px;}
 
 nav{width:950px;
-	height:100px;
     background-color:#fff;
-	font-size: 120%;}
+	font-size: 200%;
+    text-align:center;
+    padding:50px 0px;}
 
 
 .nav{width:218px;
-	 height:100px;
+	 height:98px;
 	 border:#000 2px solid;
 	 background-color:#a6a4a4;
 	 float:left;}
@@ -41,6 +42,11 @@ nav{width:950px;
 #nav1,#nav2,#nav3{
 	margin:0px 20px 0px 0px;}
 
-.text{font-size:150%}
+#nav4{width:220px;}
+
+.text{font-size:180%}
+
+#text2{width:660px;
+	   height:300px;}
 
 
