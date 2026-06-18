@@ -1,14 +1,8 @@
 @charset "utf-8";
 
 /*ウィンドウ背景色の設定*/
-body{
-	/*
-	background-color: #fbf9cc;
-	background-image: url(img/bg-stripe01.png);
-	background-repeat: repeat-x;
-	*/
-	background: #fff url(img/bg-stripe01.png) repeat-x;
-}
+body{background: #fff url(img/bg-stripe01.png) repeat-x;
+    font-size: 12px}
 
 /*リンク色の設定*/
 a{color: #0000ee;}
@@ -32,7 +26,7 @@ body{width:950px;
 		padding: 100px 0px;}
 
 nav{width:950px;
-	height:60px;
+	height:100px;
     background-color:#fff;
 	font-size: 120%;}
 
@@ -43,41 +37,8 @@ nav{width:950px;
 	 float:left;}
 
 #nav1,#nav2,#nav3{
-	margin:0px 20px 0px 0px;
-    margin-color:}
+	margin:0px 20px 0px 0px;}
 
+.text{font-size:150%}
 
-
-
-
-    
-
-
-
-
-
-
-
-
-/*大見出しの設定*/
-h2{
-	color: #6fbb9a;
-	border: #94c8b1 1px dotted;
-	border-left: #d0e35b 10px solid;
-	padding: 5px 20px;
-	margin-bottom: 0;
-}
-
-/*情報データ見出しの設定*/
-dt{
-	font-weight: bold;
-}
-
-/*リード文領域の設定*/
-#lead{
-	border-top: #6fbb9a 1px dotted;
-	border-bottom: #6fbb9a 1px dotted;
-	padding: 15px;
-	text-align: center;
-}
 
