@@ -19,16 +19,28 @@ a:hover{color: #4400ee;}
 
 a:visited{color: #551a8b;}
 
-body{width:960px;
+body{width:950px;
 	 margin:0px auto;
 	 background-color: #aaa;
-	 border-left:  #000 3px solid;
-	 border-right: #000 3px solid;}
+	 border-left:  #000 2px solid;
+	 border-right: #000 2px solid;}
 	
 #title{color:#000;
 	   height:200px;
 	   font-size:300%;
-        background-color: #555;}
+        background-color: #333;}
+
+nav{width:950px;
+	height:60px;
+    background-color:#fff;
+	font-size: 120%;}
+    
+
+
+
+
+
+
 
 
 /*大見出しの設定*/
