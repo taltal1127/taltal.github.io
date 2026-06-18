@@ -11,28 +11,26 @@ body{
 }
 
 /*リンク色の設定*/
-a{
-	color: #0000ee;
-}
+a{color: #0000ee;}
 
-a:active{
-	color:#f00;
-}
+a:active{color:#f00;}
 
-a:hover{
-	color: #4400ee;
-}
+a:hover{color: #4400ee;}
 
-a:visited{
-	color: #551a8b;
-}
+a:visited{color: #551a8b;}
+
+body{width:960px;
+	 margin:0px auto;
+	 background-color: #aaa;
+	 border-left:  #000 3px solid;
+	 border-right: #000 3px solid;
+	}
+
 
 /*ページタイトルの設定*/
-h1{
-	color: #000;
-	text-align: center;
-	font-size: 300%;
-}
+h1{color: #000;
+   text-align: center;
+   font-size: 300%;}
 
 h1 span{
 	color: #d0e35b;
