@@ -2,7 +2,8 @@
 
 /*ウィンドウ背景色の設定*/
 body{background: #fff url(img/bg-stripe01.png) repeat-x;
-    font-size: 12px}
+    font-size: 12px;
+    font-family:"メイリオ",sans-serif;}
 
 /*リンク色の設定*/
 a{color: #0000ee;}
