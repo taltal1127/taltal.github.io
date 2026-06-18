@@ -26,14 +26,21 @@ body{width:950px;
 	 border-right: #000 2px solid;}
 	
 #title{color:#000;
-	   height:200px;
 	   font-size:300%;
-        background-color: #333;}
+        background-color: #666;
+	    text-align: center;
+		padding: 100px 0px;}
 
 nav{width:950px;
 	height:60px;
     background-color:#fff;
 	font-size: 120%;}
+
+
+.nav{width:221px;
+	 border:#000 2px solid;
+	 }
+
     
 
 
