@@ -39,7 +39,13 @@ nav{width:950px;
 
 .nav{width:221px;
 	 border:#000 2px solid;
-	 }
+	 background-color:#a6a4a4;}
+
+#nav1,#nav2,#nav3{
+	margin:0px 20px 0px 0px;
+    margin-color:}
+
+
 
     
 
