@@ -32,7 +32,8 @@ nav{width:950px;
 	font-size: 120%;}
 
 
-.nav{width:220px;
+.nav{width:218px;
+	 height:100px;
 	 border:#000 2px solid;
 	 background-color:#a6a4a4;
 	 float:left;}
