@@ -16,21 +16,20 @@ a:visited{color: #551a8b;}
 
 body{width:950px;
 	 margin:0px auto;
-	 background-color: #aaa;
+	 background-color: #ddd;
 	 border-left:  #000 2px solid;
 	 border-right: #000 2px solid;}
 	
 #title{color:#000;
-	   font-size:300%;
-        background-color: #666;
+	   font-size:400%;
+        background-color: #bbb;
 	    text-align: center;
 		padding: 100px 0px;}
 
 nav{width:950px;
     background-color:#fff;
 	font-size: 200%;
-    text-align:center;
-    padding:50px 0px;}
+    text-align:center;}
 
 
 .nav{width:218px;
