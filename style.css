@@ -36,7 +36,8 @@ nav{width:950px;
 	 height:98px;
 	 border:#000 2px solid;
 	 background-color:#a6a4a4;
-	 float:left;}
+	 float:left;
+	 padding:49px 0px}
 
 #nav1,#nav2,#nav3{
 	margin:0px 20px 0px 0px;}
@@ -47,6 +48,8 @@ nav{width:950px;
 
 #text2{width:660px;
 	   height:300px;}
+
+.underline{font-size: 200%}
 
 	
 
