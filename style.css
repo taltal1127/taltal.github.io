@@ -55,11 +55,13 @@ nav{width:950px;
 
 #0,#1,#2,#3{border-bottom: #c7b885 2px dotted;}
 
-.ukasu{float:right}
+.ukasu{float:right;}
 
-.clear{clear:both}
+.clear{clear:both;}
 
-#floatleft{float:left}
+#floatleft{float:left;}
+
+.display{display:flex;}
 
 	
 
