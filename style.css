@@ -49,12 +49,16 @@ nav{width:950px;
 
 .text{font-size:180%}
 
-#text2{width:660px;
-	   height:300px;}
+#text2{width:300px;
+	   height:200px;}
 
 .underline{font-size: 150%;}
 
 #0,#1,#2,#3{border-bottom: #c7b885 2px dotted;}
+
+.icon-large{font-size: 300%}
+
+.ukasu{float:right}
 
 	
 
