@@ -47,13 +47,19 @@ nav{width:950px;
       background-color:#fef0d7;}
 #nav4{width:220px;}
 
-.text{font-size:180%}
+.text{font-size:180%
+      }
 
 
 .underline{font-size: 150%;}
+
 #0,#1,#2,#3{border-bottom: #c7b885 2px dotted;}
+
 .ukasu{float:right}
+
 .clear{clear:both}
+
+#floatleft{float:left}
 
 	
 
