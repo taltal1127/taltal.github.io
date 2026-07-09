@@ -36,7 +36,7 @@ nav{width:950px;
 	 border:#000 2px solid;
 	 background-color:#eee;
 	 float:left;
-	 padding:49px 0px}
+	 padding:49px 0px;}
 
 #nav1{margin:0px 20px 0px 0px;
       background-color:#eae7f3;}
@@ -47,8 +47,8 @@ nav{width:950px;
       background-color:#fef0d7;}
 #nav4{width:220px;}
 
-.text{font-size:180%
-      }
+.text{font-size:180%;
+	  font-weight:600; }
 
 
 .underline{font-size: 150%;}
