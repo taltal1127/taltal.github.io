@@ -38,7 +38,7 @@ nav{width:950px;
 	 float:left;
 	 padding:49px 0px;}
 
-#nav1{margin:0px 20px 0px 0px;
+#nav1{margin:0px 20px 50px 0px;
       background-color:#eae7f3;}
 #nav2{
 	margin:0px 20px 0px 0px;
@@ -55,8 +55,6 @@ nav{width:950px;
 
 .underline{font-size: 150%;}
 
-#about,#information,#active,#hobby{border-bottom: #c7b885 2px dotted;}
-
 .ukasu{float:right;}
 
 .clear{clear:both;}
@@ -67,6 +65,21 @@ nav{width:950px;
 
 #space{margin:30px 0px;}
 
+.zurasu{margin:0px 120px 0px 0px;}
+
+.line{border-top: #c7b885 2px dotted;
+	border-bottom:#c7b885 2px dotted;}
+
+#about,#information,#active,#hobby{margin:0px 0px 30px 0px;}
+
+html{scroll-behavior:smooth;}
+
+#top{padding:20px 20px;
+    color:#fff;
+	background-color:#000;
+    position:fixed;
+    right:0;
+    bottom:0;}
 	
 
 
