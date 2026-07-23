@@ -55,7 +55,7 @@ nav{width:950px;
 
 .underline{font-size: 150%;}
 
-#0,#1,#2,#3{border-bottom: #c7b885 2px dotted;}
+#about,#information,#active,#hobby{border-bottom: #c7b885 2px dotted;}
 
 .ukasu{float:right;}
 
@@ -64,6 +64,8 @@ nav{width:950px;
 #floatleft{float:left;}
 
 .display{display:flex;}
+
+#space{margin:30px 0px;}
 
 	
 
