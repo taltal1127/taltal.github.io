@@ -83,5 +83,8 @@ html{scroll-behavior:smooth;}
 	
 
 #footer{
-	background-color: #a00;
+	background-color: #555;
+	color:#fff;
+	padding:30px 50px;
+	font-size:150%;
 }
