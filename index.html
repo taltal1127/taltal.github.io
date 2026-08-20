@@ -34,7 +34,8 @@ body{width:950px;
 	   font-size:400%;
         background-image: linear-gradient(60deg,#aad9d8,#fefaf3);
 	    text-align: center;
-		padding: 100px 0px;}
+		padding: 100px 0px;
+        border-radius:15px;}
 
 nav{width:950px;
     background-color:#fff;
@@ -47,7 +48,8 @@ nav{width:950px;
 	 border:#000 2px solid;
 	 background-color:#eee;
 	 float:left;
-	 padding:49px 0px;}
+	 padding:49px 0px;
+    border-radius: 15px}
 .nav a{font-weight:700;}
 
 #nav1{margin:0px 20px 50px 0px;
@@ -90,17 +92,30 @@ html{scroll-behavior:smooth;}
     color:#fff;
 	background-color:#000;
     position:fixed;
-    right:0;
-    bottom:0;}
+    right:10px;
+    bottom:0;
+    border-radius:10px;}
 	
 
 #footer{
-	background-color: #bbb;
+	background-color: #888;
 	color:#fff;
 	padding:30px 50px;
 	font-size:150%;}
 
 .font6{font-weight:700;}
+
+td{font-size:180%;
+   font-weight:700;
+   padding:5px 8px 5px 8px;}
+
+   td,table,tr{border:#555 1px solid;}
+
+table{border-spacing:0;
+      border-collapse:separate;
+      margin:50px 50px;}
+
+#pandora{margin:0px 50px 40px 0px;}
 </style>
 </head>
 
@@ -124,13 +139,33 @@ html{scroll-behavior:smooth;}
 <section id="information">
 <h2 class="line">□<span class = "underline">たるたるの情報</span></h2>
 <div id="floatleft">
-<pre class="text">    ・性別…男性    ・職業…学生
-
-    ・年…13歳    ・住所…千葉県
-
-    ・好きなこと…サッカー.ゲーム.プログラミング</pre>
+<table>
+<tr>    
+<td>性別</td>
+<td>男性</td>
+</tr>
+<tr>
+<td>職業</td>
+<td>学生</td>
+</tr>
+<tr>
+<td>年</td>
+<td>13歳</td>
+</tr>
+<tr>
+<td>住所</td>
+<td>千葉県</td>
+</tr>
+<tr>
+<td>好きなこと</td>
+<td>サッカー
+    ゲーム
+    プログラミング
+</td>
+</tr>
+</table>
 </div>
-<img src="pandra.WEBP" width="300" height="300" alt="パンドラ" class = "ukasu">
+<img src="pandra.WEBP" width="300" height="300" alt="パンドラ" class = "ukasu" id="pandora">
 
 </section>
 
