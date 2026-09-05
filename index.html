@@ -81,20 +81,18 @@ nav{width:950px;
 
 .zurasu{margin:0px 120px 0px 0px;}
 
-.line{border-top: #c7b885 2px dotted;
-	border-bottom:#c7b885 2px dotted;}
-
 #about,#information,#active,#hobby{margin:0px 0px 30px 0px;}
 
 html{scroll-behavior:smooth;}
 
 #top{padding:20px 20px;
     color:#fff;
-	background-color:#000;
+	background-color:#fff;
     position:fixed;
     right:10px;
     bottom:0;
-    border-radius:10px;}
+    border-radius:10px;
+    border:solid #000 3px;}
 	
 
 #footer{
@@ -113,9 +111,23 @@ td{font-size:180%;
 
 table{border-spacing:0;
       border-collapse:separate;
-      margin:50px 50px;}
+      margin:50px 50px;
+      border-radius:12px;}
 
 #pandora{margin:0px 50px 40px 0px;}
+
+#kadomaru{border-radius:10px;}
+
+.kuhaku{padding:0px 0px 0px 20px}
+
+.line{padding:20px 0px 20px 20px;
+    border-top: #c7b885 2px dotted;
+	border-bottom:#c7b885 2px dotted;}
+
+tr:first-child td:first-child{border-radius:10px 0px 0px 0px;}
+tr:first-child td:last-child{border-radius:0px 10px 0px 0px;}
+tr:last-child td:last-child{border-radius:0px 0px 10px 0px;}
+tr:last-child td:first-child{border-radius:0px 0px 0px 10px;}
 </style>
 </head>
 
@@ -133,11 +145,11 @@ table{border-spacing:0;
 
 <section id="about" class="clear">
 <h2 class="line">□<span class = "underline">何のサイト?</span></h2>
-<p class="text">このサイトは塾で作成した、<br>たるたるのホームページです。<br>たるたるの情報や活動、趣味などが書かれています。</p>
+<p class="text kuhaku">このサイトは塾で作成した、<br>たるたるのホームページです。<br>たるたるの情報や活動、趣味などが書かれています。</p>
 </section>
 
 <section id="information">
-<h2 class="line">□<span class = "underline">たるたるの情報</span></h2>
+<h2 class="line kuhaku">□<span class = "underline"> たるたるの情報</span></h2>
 <div id="floatleft">
 <table>
 <tr>    
@@ -158,7 +170,7 @@ table{border-spacing:0;
 </tr>
 <tr>
 <td>好きなこと</td>
-<td>サッカー
+<td id="migishita">サッカー
     ゲーム
     プログラミング
 </td>
@@ -171,7 +183,7 @@ table{border-spacing:0;
 
 <section id = "active">
 <h2 class="clear line">□<span class = "underline">たるたるの活動</span></h2>
-<p class="text">主にscratch,youtube,githubで活動しています。
+<p class="text kuhaku">主にscratch,youtube,githubで活動しています。
     <br>youtubeではゲーム(主にブロスタ、にゃんこ大戦争)の動画の投稿
     <br>scratchでは色々なゲームの投稿 githubではpython,HTML,CSSの学習をしています。</p>
 <div class="display"><img src="youtube.svg" width="140" height="100" alt="github"><p class="text">・youtube　　<a href="https://www.youtube.com/@%E3%81%9F%E3%82%8B%E3%81%9F%E3%82%8B-n9u">youtubeのリンク</a></p></div>
@@ -184,7 +196,7 @@ table{border-spacing:0;
 <h2 class="line">□<span class = "underline">たるたるの趣味</span></h2>
 <dl>
 <a href="https://apps.apple.com/jp/app/%E3%81%AB%E3%82%83%E3%82%93%E3%81%93%E5%A4%A7%E6%88%A6%E4%BA%89/id547145938"><img src="nyanko rogo.png" width="120" height="120" alt="battlecats" class="ukasu zurasu" ></a>
-<dt class="text">ゲーム</dt>
+<dt class="text kuhaku">ゲーム</dt>
 <dd class = "text">・にゃんこ大戦争</dd>
 <dd class="text">　　2025年3月9日からプレイ
     <br>　ユーザーランク12000
@@ -192,7 +204,7 @@ table{border-spacing:0;
     <br>　宇宙編3章ゾンビ<br></dd></dl>
 
 <dl id="space">
-<a href="https://apps.apple.com/jp/app/%E3%83%96%E3%83%AD%E3%82%B9%E3%82%BF/id1229016807"><img src="brawl stars.png" width="120" height="120" alt="brawlstars" class="ukasu zurasu"></a>
+<a href="https://apps.apple.com/jp/app/%E3%83%96%E3%83%AD%E3%82%B9%E3%82%BF/id1229016807"><img src="brawl stars.png" width="120" height="120" alt="brawlstars" class="ukasu zurasu" id="kadomaru" ></a>
 <dd class = "text">・ブロスタ</dd>
 <dd class="text">　　2025年 6月17日からプレイ
     <br>　・総トロフィー数34000
